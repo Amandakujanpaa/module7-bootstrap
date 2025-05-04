@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simply Me - Bootstrap Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .bg-1 {
+      background-color: pink;
+      color: white;
+    }.bg-2 {
+      background-color: lightpink;
+      color:white;
+    }
+
+    .bg-3 {
+      background-color:lightslategray;
+      color: white;
+    }
+
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">OmaSivuni</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Etusivu</a></li>
+            <li><a href="#minusta">Minusta</a></li>
+            <li><a href="#projektit">Projektit</a></li>
+            <li><a href="#yhteys">Yhteystiedot</a></li>
+          </ul>
+        </div>
+      </nav><div class="container-fluid bg-1 text-center">
+        <h3>Hei, olen Amanda!</h3>
+        <img src="https://via.placeholder.com/200" class="img-circle" alt="Kuva minusta" width="200" height="200">
+        <h3>Tietojenkäsittely-tradenomi opiskelija</h3>
+      </div>
+
+      <div class="container-fluid bg-2 text-center" id="minusta">
+        <h3>Kuka olen?</h3>
+        <p>Olen ohjelmoinnista kiinnostunut opiskelija, joka haluaisi päästä oppimaan uutta sekä kehittymään!</p>
+      </div>
+      <div class="container-fluid bg-3 text-center" id="projektit">
+        <h3>Projektini</h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Portfolio-sivusto</p>
+            <img src="https://via.placeholder.com/150" class="img-responsive center-block" style="width:100%" alt="Portfolio">
+          </div>
+          <div class="col-sm-4">
+            <p>ToDo-sovellus</p>
+            <img src="https://via.placeholder.com/150" class="img-responsive center-block" style="width:100%" alt="ToDo">
+          </div>
+          <div class="col-sm-4">
+            <p>Sää-sovellus</p>
+            <img src="https://via.placeholder.com/150" class="img-responsive center-block" style="width:100%" alt="Weather App">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-2 text-center" id="yhteys">
+        <h3>Ota yhteyttä</h3>
+        <p>Sähköposti: amanda.esimerkki@example.com</p>
+        <p>GitHub: <a href="https://github.com/kayttajanimimerkki" target="_blank">github.com/kayttajanimimerkki</a></p>
+      </div>
+      <footer class="container-fluid bg-3 text-center">
+        <p>Tehty Bootstrapilla 💻</p>
+      </footer>
+      
+      </body>
+      </html>
